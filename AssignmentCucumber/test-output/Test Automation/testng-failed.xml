@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Automation]">
+  <test name="erp test(failed)">
+    <classes>
+      <class name="com.erp.testcase.CreateItems">
+        <methods>
+          <include name="initial"/>
+          <include name="search"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- com.erp.testcase.CreateItems -->
+    </classes>
+  </test> <!-- erp test(failed) -->
+</suite> <!-- Failed suite [Test Automation] -->
