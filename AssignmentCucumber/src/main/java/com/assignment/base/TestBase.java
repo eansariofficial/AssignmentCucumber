@@ -26,7 +26,7 @@ public class TestBase {
 	{
 		
 		properties = new Properties();
-		FileInputStream filelocation = new FileInputStream("E:\\selinium\\AssignmentCucumber\\src\\main\\java\\com\\assignment\\config\\config.properties");
+		FileInputStream filelocation = new FileInputStream("C:\\Users\\eht22\\git\\AssignmentCucumber\\AssignmentCucumber\\src\\main\\java\\com\\assignment\\config\\config.properties");
 		properties.load(filelocation);
 	}
 	public void initialization() throws Exception

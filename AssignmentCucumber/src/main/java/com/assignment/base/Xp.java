@@ -29,7 +29,7 @@ public class Xp  {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		highlighter(webElement);
 		webElement.click();
-		ScreenShot();
+//		ScreenShot();
 		Thread.sleep(1500);
 	}
 	public void highlighter(WebElement element)
@@ -58,7 +58,7 @@ public class Xp  {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		highlighter(webElement);
 		webElement.sendKeys(str);
-		ScreenShot();
+//		ScreenShot();
 		Thread.sleep(1500);
 	}
 	public WebDriver getDriver()

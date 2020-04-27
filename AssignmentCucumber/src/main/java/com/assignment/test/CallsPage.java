@@ -30,7 +30,7 @@ public class CallsPage  extends TestBase{
 		sel.xp(clkCall).click();
 		sel.xp(edtDuration).type(dur);
 		sel.xp(clkAssignedTo).click();
-		sel.xp(clkEhteshamAnsari).click();
+//		sel.xp(clkEhteshamAnsari).click();
 		sel.xp(edtDiscription).type(des);
 		sel.xp(btnSave).click();
 
